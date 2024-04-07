@@ -146,7 +146,7 @@ body {
   display: flex;
 }
 
-.projetos .projetos.ativo{
+.projetos .projeto.ativo{
   display: block;
 }
 
