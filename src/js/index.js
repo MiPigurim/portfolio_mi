@@ -15,11 +15,19 @@ const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
 
 btnMostrarMais.addEventListener('click', () => {
   // Passo 3
-  projetosInativos.forEach(projetoInativo => {
-    projetoInativo.classList.add('ativo');
-  })
+  mostarMaisProjetos();
 
 // Objetivo 2
   // Passo 1
-  btnMostrarMais.classList.add('remover');
+  esconderBotao();
 })
+
+function esconderBotao() {
+  btnMostrarMais.classList.add('remover');
+}
+
+function mostarMaisProjetos() {
+  projetosInativos.forEach(projetoInativo => {
+    projetoInativo.classList.add('ativo');
+  });
+}
