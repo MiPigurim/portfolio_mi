@@ -9,25 +9,25 @@
 */
 
 // Objetivo 1
-  // Passo 1
-const btnMostrarMais = document.querySelector('.btn-mostrar-projetos');
-const projetosInativos = document.querySelectorAll('.projeto:not(.ativo)');
+// Passo 1
+const btnMostrarMais = document.querySelector(".btn-mostrar-projetos");
+const projetosInativos = document.querySelectorAll(".projeto:not(.ativo)");
 
-btnMostrarMais.addEventListener('click', () => {
+btnMostrarMais.addEventListener("click", () => {
   // Passo 3
-  mostarMaisProjetos();
+  mostrarMaisProjetos();
 
-// Objetivo 2
+  // Objetivo 2
   // Passo 1
   esconderBotao();
-})
+});
 
-function esconderBotao() {
-  btnMostrarMais.classList.add('remover');
+function mostrarMaisProjetos() {
+  projetosInativos.forEach((projetoInativo) => {
+    projetoInativo.classList.add("ativo");
+  });
 }
 
-function mostarMaisProjetos() {
-  projetosInativos.forEach(projetoInativo => {
-    projetoInativo.classList.add('ativo');
-  });
+function esconderBotao() {
+  btnMostrarMais.classList.add("remover");
 }
