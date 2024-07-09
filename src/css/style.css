@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; /* centraliza verticalmente */
-  padding: 30px 15px;
+  padding: 15px 15px 30px 15px;
 }
 
 .cabecalho .logo {
@@ -62,7 +62,7 @@ body {
   gap: 15px;
   letter-spacing: 2px;
   padding: 0 15px;
-  max-width: 50%;
+  max-width: 60%;
 }
 
 .home .informacoes h1 {
