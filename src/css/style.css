@@ -32,10 +32,10 @@ body {
 
 .cabecalho h1 {
   font-size: 25px;
+
 }
 
 .cabecalho a:hover .logo {
-  color: #411b63;
   border: 2px solid #411b63;
 }
 
@@ -112,15 +112,15 @@ body {
 }
 
 .home .container-foto img {
-  width: 100%;
+  width: 80%;
   border-radius: 50%;
 }
 
 .home .foto.sombra-interna {
-  background: linear-gradient(to right, #411b63, #18c063, #00eea2);
+  background: linear-gradient(90deg, #18c063, #411b63, #00eea2);
 
-  background-size: 180% 180%;
-  animation: gradient-animation 5s ease infinite;
+  background-size: 200% 100%;
+  animation: gradient-animation 5s infinite;
 }
 
 .projetos {
@@ -133,6 +133,7 @@ body {
   font-size: 45px;
   font-weight: 500;
   text-transform: uppercase;
+
 }
 
 .projetos .container-projetos {
@@ -210,14 +211,14 @@ body {
 
 @keyframes gradient-animation {
   0% {
-    background-position: 0% 50%;
+    background-position: 100% 0%;
   }
 
   50% {
-    background-position: 100% 50%;
+    background-position: 0% 100%;
   }
 
   100% {
-    background-position: 0% 50%;
+    background-position: 100% 0%;
   }
 }
