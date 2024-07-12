@@ -1,7 +1,7 @@
 <h1 align="center"> Portifólio simples </h1>
 
 <p align="center">
-Projeto promovido por Dev em Dobro na Semana do Zero ao Programador. A aplicação foi adaptada e continuada senguindo à necessidade de montar o meu portifólio de maneira mais simplificada.
+Projeto promovido por Dev em Dobro na Semana do Zero ao Programador. A aplicação foi adaptada e continuada seguindo à necessidade de montar o meu portfólio de maneira mais simplificada.
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@ Projeto promovido por Dev em Dobro na Semana do Zero ao Programador. A aplicaç�
 </p>
 
 <p align="center">
-  <img alt="License" src="./src/images/projeto-portifolio-simples.png">
+  <img alt="License" src="./src/images/projeto-portfolio-simples.png">
 </p>
 
 <p align="center">
@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Portifólio simples é uma aplicação WEB em que me apresento de maneira profissional, contendo meus contatos e aos meus projetos já desenvolvidos com as tecnologias utilizadas, sendo encaminhado para minha página no GitHub.
+Portfólio simples é uma aplicação WEB em que me apresento de maneira profissional, contendo meus contatos e aos meus projetos já desenvolvidos com as tecnologias utilizadas, sendo encaminhado para minha página no GitHub.
 
 <p align="center">
  Feito com ♥
