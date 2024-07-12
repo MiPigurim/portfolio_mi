@@ -1,4 +1,4 @@
-<h1 align="center"> Portifólio simples </h1>
+<h1 align="center"> Portfólio simples </h1>
 
 <p align="center">
 Projeto promovido por Dev em Dobro na Semana do Zero ao Programador. A aplicação foi adaptada e continuada seguindo à necessidade de montar o meu portfólio de maneira mais simplificada.
