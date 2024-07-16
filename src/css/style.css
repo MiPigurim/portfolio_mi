@@ -9,6 +9,19 @@ body {
   background-size: 120% 120%;
 }
 
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #411b63;
+  border-radius: 16px;
+}
+
+body::-webkit-scrollbar-button {
+  display: none;
+}
+
 .central {
   margin: 0 auto;
   max-width: 1120px;
