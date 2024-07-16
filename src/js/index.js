@@ -31,3 +31,56 @@ function mostrarMaisProjetos() {
 function esconderBotao() {
   btnMostrarMais.classList.add("remover");
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+  const skills = document.querySelectorAll('.skill');
+  skills.forEach(skill => {
+      switch(skill.textContent) {
+          case 'CSS':
+              skill.style.color = 'blue';
+              break;
+          case 'HTML':
+              skill.style.color = 'orange';
+              break;
+          case 'ReactJS':
+              skill.style.color = 'cyan';
+              break;
+          case 'Figma':
+              skill.style.color = 'pink';
+              break;
+          case 'VueJS':
+              skill.style.color = 'green';
+              break;
+          case 'Vue Router':
+              skill.style.color = 'lightgreen';
+              break;
+          case 'JavaScript':
+              skill.style.color = 'yellow';
+              break;
+          case 'NodeJS':
+              skill.style.color = 'purple';
+              break;
+          case 'Git':
+              skill.style.color = 'red';
+              break;
+          case 'GitHub':
+              skill.style.color = 'gray';
+              break;
+          case 'Json Server':
+              skill.style.color = 'brown';
+              break;
+          case 'TailwindCSS':
+              skill.style.color = 'teal';
+              break;
+          case 'TypeScript':
+              skill.style.color = 'lightblue';
+              break;
+          case 'IconFinder':
+              skill.style.color = 'lightcoral';
+              break;
+          // Add more cases as needed
+          default:
+              skill.style.color = 'black'; // Default color
+      }
+  });
+});
