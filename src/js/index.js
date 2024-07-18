@@ -78,9 +78,8 @@ document.addEventListener('DOMContentLoaded', () => {
           case 'IconFinder':
               skill.style.color = 'lightcoral';
               break;
-          // Add more cases as needed
           default:
-              skill.style.color = 'black'; // Default color
+              skill.style.color = 'black';
       }
   });
 });
