@@ -208,11 +208,17 @@ body::-webkit-scrollbar-button {
   opacity: 0;
   transition: 0.3s;
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 45px;
+  transform: translateX(30%);
 }
 
 .projetos .container-projetos .projeto:hover .informacoes-projeto {
   opacity: 0.8;
   background-color: #000;
+  transform: translateX(0%);
 }
 
 .projetos .btn-mostrar-projetos {
