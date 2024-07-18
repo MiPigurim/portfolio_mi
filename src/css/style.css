@@ -1,12 +1,17 @@
 html {
   color: #fff;
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Raleway', serif;
   background: linear-gradient(20deg, #000000, #4e7a5e);
   background-size: 120% 120%;
+  font-size: 16px;
+  line-height: 1.4;
 }
 
 body::-webkit-scrollbar {
@@ -85,16 +90,24 @@ body::-webkit-scrollbar-button {
   max-width: 60%;
 }
 
-.home .informacoes h1 {
+.container-nome h1 {
   font-family: "Raleway", sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 20px;
-  color: #411b63;
+}
+
+.nome {
+  //background: -webkit-linear-gradient(left, #00eea2, #411b63);
+  background: #411b63;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Raleway", sans-serif; /
+  font-size: 35px;
 }
 
 .home .informacoes p {
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
 
